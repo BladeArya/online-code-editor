@@ -1,0 +1,27 @@
+.code_section {
+  padding: 0.5em;
+}
+.code_section__input_code {
+  display: grid;
+  place-items: center;
+}
+
+.code_section__language_selection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+.code_section__code_output {
+  display: grid;
+  place-items: center;
+}
+.code_section__code_output > div {
+  width: 459px;
+}
+#filled-textarea-static {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 500px) {
+}
